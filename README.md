@@ -1,10 +1,16 @@
-# r3f-vite-starter
-A boilerplate to build R3F projects
+## Daily 3 News
+This project is a React Three Fiber application that provides an immersive news browsing experience. It leverages the @react-three/drei and @react-three/fiber libraries to create a 3D environment with interactive elements.
 
-```
+## Features
+- 3D Visualization: Utilizes React Three Fiber to create a visually appealing and interactive 3D environment.
+
+- News Integration: Fetches real-time news data from The News API based on user input.
+
+- User Interaction: Allows users to enter a keyword, search for news, and navigate through results with interactive 3D elements.
+
+- Dynamic Content: Dynamically displays news titles, keywords, and descriptions in a visually engaging manner.
+
+## Getting Started
 yarn
-yarn dev
-```
-
-
-![image](https://user-images.githubusercontent.com/6551176/221732091-23ee52cb-4150-42fa-b998-43628d7a6b0d.png)
+yarn run dev
+or, visit the livesite: daily3-news.vercel.app

@@ -61,7 +61,7 @@ export const Experience = () => {
         search: searchKeyword,
         limit: "3",
         language: "en",
-        published_after: "2023-11-30",
+        published_after: "2022-11-30",
       };
 
       var esc = encodeURIComponent;
@@ -233,7 +233,7 @@ export const Experience = () => {
           scale={10}
           color="#fff3b0"
         />
-        <Physics gravity={5}>
+
           <Float speed={3}>
             <Text
               position={[0.5, 0.2, 0]}
@@ -294,7 +294,7 @@ export const Experience = () => {
               </div>
             </Html>
           </Float>
-        </Physics>
+     
       </group>
 
       <group>
@@ -323,11 +323,11 @@ export const Experience = () => {
         
             maxWidth={20}
             lineHeight={1.2}
-            scale={0.17}
+            scale={0.15}
             style={{ whiteSpace: "pre-line" }}
             color="#211f1f"
             opacity={0.5}
-            position={[0, 0.85,0]}
+            position={[0, 0.85,0.6]}
             textAlign="center"
           >
             {apiResult.title
@@ -343,7 +343,7 @@ export const Experience = () => {
   style={{ whiteSpace: "pre-line" }}
   color="#211f1f"
   opacity={0.5}
-  position={[0, 0.4, 0]}
+  position={[0, 0.4, 0.9]}
   textAlign="center"
 >
 {apiResult.keywords
@@ -352,7 +352,7 @@ export const Experience = () => {
 </Text>
 
           <Text
-          position={[0,-1,0]}
+          position={[0.01,-1,0.9]}
           font={"fonts/OldNewspaperTypes.ttf"}
             maxWidth={30}
             lineHeight={2}
@@ -363,7 +363,7 @@ export const Experience = () => {
           >
             {apiResult.description
               ? apiResult.description + "\n"
-              : "Loading...!!!"}
+              : "No description given."}
           </Text>
 
        
