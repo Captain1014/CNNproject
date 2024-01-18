@@ -11,6 +11,5 @@ This project is a React Three Fiber application that provides an immersive news 
 - Dynamic Content: Dynamically displays news titles, keywords, and descriptions in a visually engaging manner.
 
 ## Getting Started
-yarn
-yarn run dev
-or, visit the livesite: daily3-news.vercel.app
+- yarn run dev
+- or, visit the livesite: daily3-news.vercel.app
